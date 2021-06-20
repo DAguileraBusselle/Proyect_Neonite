@@ -12,6 +12,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 public class RenderHandler {
 	public static void registerEntityRenders() {
+
 		RenderingRegistry.registerEntityRenderingHandler(EntityTest.class, new IRenderFactory<EntityTest>() {
 			@Override
 			public Render<? super EntityTest> createRenderFor(RenderManager manager) {
@@ -19,12 +20,11 @@ public class RenderHandler {
 			}
 		});
 
-		RenderingRegistry.registerEntityRenderingHandler(EntityNeoniteArrow.class,
-				new IRenderFactory<EntityNeoniteArrow>() {
-					@Override
-					public Render<? super EntityNeoniteArrow> createRenderFor(RenderManager manager) {
-						return new RenderNeoniteArrow(manager);
-					}
-				});
+		RenderingRegistry.registerEntityRenderingHandler(EntityNeoniteArrow.class, new IRenderFactory<EntityNeoniteArrow>() {
+			@Override
+			public Render<? super EntityNeoniteArrow> createRenderFor(RenderManager manager) {
+				return new RenderNeoniteArrow(manager);
+			}
+		});
 	}
 }

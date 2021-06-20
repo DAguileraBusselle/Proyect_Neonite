@@ -14,7 +14,7 @@ public class RenderNeoniteArrow extends RenderArrow<EntityNeoniteArrow>{
 	
 	@Override
 	protected ResourceLocation getEntityTexture(EntityNeoniteArrow entity) {
-		return new ResourceLocation(Reference.MOD_ID + ":textures/entity/arrows/neonite_arrow_entity.png");
+		return new ResourceLocation(Reference.MOD_ID + ":textures/entity/arrows/neonite_arrow.png");
 														
 	}
 }
