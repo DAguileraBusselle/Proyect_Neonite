@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " <&",
+    "# &",
+    " <&"
+  ],
+  "key": {
+ 	"#": {
+      "item": "neonite:neonite"
+    },
+    "<": {
+      "item": "neonite:compacted_neonite"
+    },
+    "&": {
+      "item": "neonite:diamond_string"
+    }
+  },
+  "result": {
+    "item": "neonite:neonite_bow",
+	"count": 1
+  }
+}

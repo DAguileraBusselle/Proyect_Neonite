@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#+#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "neonite:compacted_neonite"
+    },
+    "+": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "neonite:neonite",
+	"count": 1
+  }
+}

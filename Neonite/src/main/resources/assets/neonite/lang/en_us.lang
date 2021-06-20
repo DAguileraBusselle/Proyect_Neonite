@@ -1,0 +1,20 @@
+//ITEMS
+item.fragmented_neonite.name=Fragmented Neonite
+item.compacted_neonite.name=Compacted Neonite
+item.neonite.name=Neonite
+item.neonite_arrow.name=Neonite Arrow
+item.diamond_string.name=Diamond String
+
+//BLOCKS
+tile.neonite_ore.name=Neonite Ore
+
+//TOOLS
+item.neonite_sword.name=Neonite Sword
+item.neonite_pickaxe.name=Neonite Pickaxe
+item.neonite_shovel.name=Neonite Shovel
+item.neonite_axe.name=Neonite Axe
+item.neonite_hoe.name=Neonite Hoe
+item.neonite_bow.name=Neonite Bow
+
+//ENTITIES
+entity.neonite_arrow.name=Neonite Arrow

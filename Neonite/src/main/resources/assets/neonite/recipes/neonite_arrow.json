@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "^",
+    "|",
+	"x"
+  ],
+  "key": {
+    "^": {
+      "item": "neonite:fragmented_neonite"
+    },
+ 	"|": {
+      "item": "minecraft:iron_ingot"
+    },
+	"x": {
+      "item": "neonite:diamond_feather"
+    }
+  },
+  "result": {
+    "item": "neonite:neonite_arrow",
+	"count": 16
+  }
+}

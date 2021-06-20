@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#&#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "neonite:fragmented_neonite"
+    },
+    "&": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "neonite:compacted_neonite",
+	"count": 2
+  }
+}
